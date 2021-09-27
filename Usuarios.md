@@ -8,7 +8,7 @@ Get-LocalGroupMember administradores | where name -Match  $usuario
 
 usu pepe
 ```
-##Cambiar contraseña a usuarios:
+## Cambiar contraseña a usuarios:
 
 ```powershell
 $pass2=ConvertTo-SecureString "Pa$$word" -asplaintext -force
