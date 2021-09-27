@@ -24,3 +24,12 @@ $var = 7
 Get-Process | select -first $var | Out-File fichero.txt
 
 ```
+## Obtener el nombre de un proceso y sus hilos
+```Powershell
+foreach($proceso in Get-Process)
+{
+    $proceso.Name
+    $proceso.Threads.Count
+    Start-Sleep -Seconds 5
+}
+```
