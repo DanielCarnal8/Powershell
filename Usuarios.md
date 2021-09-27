@@ -15,3 +15,8 @@ $pass2=ConvertTo-SecureString "Pa$$word" -asplaintext -force
 Set-LocalUser -Name pepe -Password $pass2
 
 ```
+## Eliminar usuarios(paa esto hay que ejecutar PS como admin):
+```powershell 
+Remove-LocalUser pepe
+
+```
