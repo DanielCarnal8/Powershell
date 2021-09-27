@@ -1,0 +1,16 @@
+```Powershell
+#Primero hago la función
+ function ConsumoDeLosProcesosDelPC ($parametro,$valordecpu) 
+ 
+ #$parametro lo utilizo para referirme a CPU y $valordecpu para que salgan procesos con cpu menor que ese número.
+{
+$parametro
+$valordecpu
+
+    Get-Process  | Where-Object $parametro -LT $valordecpu
+}
+
+#Pongo el nombre de la función, acompañado primero de $parametro y seguido de $valorcpu
+ConsumoDeLosProcesosDelPC CPU 50 
+
+```
