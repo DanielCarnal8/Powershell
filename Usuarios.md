@@ -6,5 +6,5 @@ $usuario
 Get-LocalGroupMember administradores | where name -Match  $usuario
 }
 
-usu dor
+usu pepe
 ```
