@@ -24,6 +24,7 @@ Remove-LocalUser pepe
 ## Crear usuarios
 ```powershell
 New-LocalUser -Name "pepe" -Description "Adminitrador desde 2018" -NoPassword
+
 Name    Enabled  Description
 ----    -------  -----------
 pepe  True     Adminitrador desde 2018.
