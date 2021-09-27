@@ -16,3 +16,11 @@ $valordecpu
 ConsumoDeLosProcesosDelPC CPU 50 
 
 ```
+## SACAR LOS PRIMEROS X PROCESOS Y QUE ESTOS SE GUARDEN EN UN FICHERO .TXT
+
+```Powershell
+
+$var = 7
+Get-Process | select -first $var | Out-File fichero.txt
+
+```
