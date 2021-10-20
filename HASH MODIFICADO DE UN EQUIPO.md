@@ -1,4 +1,4 @@
-# CONECTARSE A LA BASE DE DATOS PHPMYADMIN (DE XAMPP) MEDIANTE POWERSHELL
+# COMPROBAR SI EL HASH DE UN PROGRAMA ESTA EN LA BASE DATOS PARA COMPROBAR DE QUE ESTE PROGRAMA NO HA SIDO MODIFICADO
 
 ## PRIMERO CONECTARSE A SQL
 ```powershell
@@ -30,4 +30,19 @@ $DataSet = [System.Data.DataSet]::new()
 $DataAdapter.Fill($DataSet)
 $DataSet.Tables
 ```
-## 
+## SACAR DE FORMA REMOTA EL HASH DEL OTRO EQUIPO
+```powershell
+$w10 = Invoke-Command -ScriptBlock { (Get-FileHash C:\Windows\system32\notepad.exe).HASH } -ComputerName "DESKTOP-OJRROSB"
+```
+## COMPROBAR SI EL HASH COINCIDE CON EL DE NUESTRO ORDENADOR
+```powershell
+if (($DataSet.Tables).hash -eq $w10 ) 
+{
+    "hash está bien"
+
+
+} else
+{
+ "hash está mal"
+}
+```
