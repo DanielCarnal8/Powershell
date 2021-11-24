@@ -1,3 +1,4 @@
+![Captura](https://user-images.githubusercontent.com/72084639/143287902-e81d2e02-8455-4175-86da-b7b381ea9359.PNG)
 # ABRIR DESDE UN HTML NOTEPAD
 
 ## PHP INTERNO CON HTML
@@ -44,3 +45,5 @@ echo $salida;
 </html>
 
 ```
+![Captura1](https://user-images.githubusercontent.com/72084639/143288068-23396049-1b7b-4370-9fca-d98ae6cc95dc.PNG)
+
