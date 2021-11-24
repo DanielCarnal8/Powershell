@@ -1,4 +1,4 @@
-![Captura](https://user-images.githubusercontent.com/72084639/143287902-e81d2e02-8455-4175-86da-b7b381ea9359.PNG)
+
 # ABRIR DESDE UN HTML NOTEPAD
 
 ## PHP INTERNO CON HTML
