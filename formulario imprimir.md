@@ -1,4 +1,6 @@
-````powershell
+# INTERFAZ DEL FORMULARIO
+
+```powershell
 
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
@@ -135,3 +137,5 @@ $Form.ShowDialog()
 
 
 ```
+
+## FUNCIONALIDAD DE LOS BOTONOS
