@@ -137,5 +137,6 @@ $Form.ShowDialog()
 
 
 ```
+![Captura](https://user-images.githubusercontent.com/72084639/151988891-e7c3b9c8-9418-44d1-a3c7-7faad0e463f8.PNG)
 
 ## FUNCIONALIDAD DE LOS BOTONOS
