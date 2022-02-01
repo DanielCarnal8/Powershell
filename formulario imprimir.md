@@ -140,3 +140,14 @@ $Form.ShowDialog()
 ![Captura](https://user-images.githubusercontent.com/72084639/151988891-e7c3b9c8-9418-44d1-a3c7-7faad0e463f8.PNG)
 
 ## FUNCIONALIDAD DE LOS BOTONOS
+
+#### EXPLORADOR DE ARCHIVOS
+Abre el axplorador de archivos en la ruta en la que está la carpeta de  la cual se imprime su contenido.
+
+#### IMPRIMIR
+Imprime lo que hay en la carpeta caliente
+
+#### ¿COMO FUNCIONA EL FORMULARIO?
+Índice del formulario
+![Captura1](https://user-images.githubusercontent.com/72084639/151992082-8503a628-2a97-4c01-88d2-2872c0f01e05.PNG)
+
