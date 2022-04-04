@@ -2,7 +2,7 @@
 ### CON MEZCLA DE VARIABLES, FICHEROS Y MENU
 ```Powershell
 #VARIABLES
-$dominio = "dc=ad,dc=luis,dc=com,dc=ar"
+$dominio = "dc=ad,dc=dani,dc=com,dc=ar"
 $dominio2 = "ou=HOSPITALHM,dc=ad,dc=luis,dc=com,dc=ar"
 $primeraplanta = "PRIMERAPLANTA"
 $segundaplanta = "SEGUNDAPLANTA"
